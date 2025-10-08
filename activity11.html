@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>earth</title>
+    <style>
+        #wrapper{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:#010b19;
+
+        }
+        .orbit{
+            
+              border: 2px solid rgba(0, 255, 0, 0);
+              
+      justify-content: center;
+      align-items: center;
+      animation: orbit-spin 3s linear infinite;
+
+        }
+        @keyframes orbit-spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+        .box{
+            
+            border-radius: 50%;
+            
+
+        }
+        .earth{
+            height: 100px;
+            width: 100px;
+            background-color: lightblue;
+            box-shadow: 3px 3px 3px solid black;
+            transform: translatex(50px);
+          box-shadow:  0 0 40px 10px green ,
+          0 0 20px 5px lightgreen ;
+        }
+        .moon{
+           
+            transform: translateX(250px);
+            height: 75px;
+            width: 75px;
+            
+            
+ 
+ background-color: gray;
+  box-shadow: 
+    0 0 20px 5px rgba(255, 255, 255, 0.7), 
+    0 0 40px 10px rgba(255, 255, 255, 0.5), 
+    0 0 60px 20px rgba(255, 255, 255, 0.3); 
+}
+        
+        
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="box earth"></div>
+            <div class="orbit">
+                  <div class="box moon"></div>
+            </div>
+          
+        </div>
+    </div>
+    
+</body>
+</html>nfjeehu hfiehnf infe wnk gyhe ghghg hg eirfhd ggvhgigyoergjn dve
